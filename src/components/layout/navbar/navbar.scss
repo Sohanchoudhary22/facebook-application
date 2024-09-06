@@ -1,0 +1,114 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.first_container{
+    // border: 1px solid gray;
+    width:25%;
+    display: flex;
+    gap:5px;
+    align-items: center;
+
+    .img{
+        width: 20%;
+
+         img{
+            width:50%;
+            margin: auto;
+        }
+    }
+    .search{
+        width: 60%;
+        /* height: 45px; */
+        padding-left: 10px;
+        text-align: start;
+        background-color: rgb(207, 207, 207);
+        border-radius: 20px;
+
+        .IoIoSearch{
+            font-size: 18px;
+            color: rgb(94, 93, 93);
+        }
+        input{
+            width: 90%;
+            height: 35px;
+            background-color: rgb(207, 207, 207);
+            font-size: 16px;
+            border-radius: 10px;
+            border: none;
+
+            input:focus{
+                outline: none;
+            }
+        }
+    }
+}
+
+.second_container{
+    // border: 1px solid gray;
+    width: 40%;
+    display: flex;
+    align-items: center;
+
+    a{
+        margin: auto;
+        color: rgb(45, 46, 46);
+        font-size: 25px;
+    }
+    a:hover{
+        color: rgb(0, 102, 255);
+    }
+}
+
+
+.third_container{
+    width: 34%;
+    display: flex;
+    align-items: center;
+
+    .profile_name{
+        width: 40%;
+        padding-left:12rem;
+        height: 50px;
+        display: flex;
+        gap: 20px;
+
+        img{
+            width: 26%;
+            height: 50px;
+            border-radius: 28px;
+        }
+    }
+    .symbol_button{
+        width: 60%;
+        height: 50px;
+        display: flex;
+        gap:0px;
+
+        a{
+            width: 9%;
+            height:26px;
+            margin: auto;
+           padding: .3rem;
+            border-radius: 40px;
+            background-color: rgb(172, 171, 171);
+            color: black;
+            font-size: 22px;
+        }
+        a:hover{
+                color: rgb(178, 58, 182);
+            }
+        select{
+            border-radius: 30px;
+            width:9%;
+            margin: auto;
+            height:32px;
+            background-color: rgb(172, 171, 171);
+
+        }
+        select:hover{
+           color: rgb(178, 58, 182);
+        }
+    }
+}
