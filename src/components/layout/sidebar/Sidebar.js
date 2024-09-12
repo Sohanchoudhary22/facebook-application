@@ -72,14 +72,21 @@ function Sidebar (){
         <hr/>
 
         <div className="sidebar_child2">
-             <div>
+             <div className="sidebar_shortcut">
                 <h3>Shortcuts</h3>
                 <BiDotsHorizontalRounded/>
              </div>
             {SidebarData.side2.map((ele) =>{
-               
+                  return(
+                     <div className="sidebar_logo">
+                        <img src={ele.img} alt="fgrdv"/>
+                        <p className="p">{ele.name}</p>
+                     </div>
+                  )
             })}
+            <div className="button_div"><button>See more</button></div>
         </div>
+        
 
         </div>
     )

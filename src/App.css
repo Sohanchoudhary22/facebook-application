@@ -21,7 +21,7 @@
 }
 .main{
   grid-area: main;
-  background-color: #e2e7eb;
+  background-color: #d9dde0;
 }
 .footer{
   grid-area: footer;

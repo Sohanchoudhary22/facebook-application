@@ -1,15 +1,16 @@
 
 .sidebar{
-    // border: 1px solid red;
-    width: 100%;
+    width:100%;
+    overflow: scroll;
+    scrollbar-width: none;
+   
 }
 .sidebar_child1{
-    // border: 1px solid blue;
+    width:99%;
     height: 50%;
     
     
     .sidebar_logo{
-        // border: 1px solid red;
         display: flex;
         width: 100%;
         height: 50px;
@@ -35,7 +36,6 @@
         }
        }
        .button_div{
-        // border: 1px solid red;
         width: 90%;
         height: 40px;
         margin:20px auto;
@@ -55,6 +55,57 @@ hr{
     width: 90%;
 }
 .sidebar_child2{
+    width: 99%;
     height: 50%;
     
+    // overflow: scroll;
+
+    .sidebar_shortcut{
+        // border: 1px solid red;
+        display: flex;
+        width:95%;
+        margin: auto;
+        align-items: center;
+        gap: 180px;
+        justify-content: space-around;
+
+    }
+
+    .sidebar_logo{
+        // border: 1px solid red;
+        display: flex;
+        width:95%;
+        height:54px;
+        gap: 20px;
+        padding: .3rem;
+        align-items: center;
+
+        img{
+            border-radius: 10px;
+            width:12%;
+            height: 40px;
+        }
+        
+        p{
+            font-size: 18px;
+        }
+       }
+       .button_div{
+        // border: 1px solid red;
+        width: 90%;
+        height: 40px;
+        margin:20px auto;
+        padding: 10px;
+        
+        button{
+            border: none;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            font-size: 18px;
+            background-color: rgb(187, 187, 187);
+        
+        }
+       }
+
 }
